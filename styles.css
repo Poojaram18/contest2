@@ -1,0 +1,244 @@
+.flexbox { 
+	overflow:hidden;
+}
+.flexbox { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1728px;
+	height:2308px;
+	position:absolute;
+    /* cursor: pointer;
+  */
+}
+
+.cur{
+    cursor: pointer;
+}
+ul{
+    background-color:black;
+width:1728px;
+height:87px;
+position:absolute;
+
+ list-style-type: none;
+}
+
+.comapny{ 
+	color:rgba(255, 255, 255, 1);
+	width:180px;
+	height:29px;
+	position:absolute;
+	left:38px;
+	top:29px;
+	font-family:Inter;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+	 cursor: pointer;
+}
+
+.e1_16 { 
+	color:rgba(0, 0, 0, 1);
+	width:600px;
+	height:94px;
+	position:absolute;
+	left:50px;
+	top:1154px;
+	font-family:Inter;
+	text-align:left;
+	font-size:64px;
+	letter-spacing:0;
+    cursor: auto;
+}
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column1 {
+    position: absolute;
+  width: 791px;
+  height: 546px;
+  left: 38px;
+  top: 245px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000; /* Should be removed. Only for demonstration */
+  }
+  .column2{
+  position: absolute;
+  width: 729px;
+  height: 911px;
+  left: 922px;
+  top: 140px;
+  cursor: pointer;
+  
+  }
+  .Heading 1{
+  position: absolute;
+  width: 729px;
+  height: 911px;
+  left: 922px;
+  top: 140px;
+  
+  background: #D9D9D9;
+  }
+  #text{
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+  }
+  button{
+  
+          padding: 5px 30px;
+          cursor:pointer;
+            font-family: Inter;
+          font-size: 24px;
+          font-weight: 300;
+          background-color: black; 
+          border: none;
+          color: white;
+         position: absolute;
+        width: 226px;
+        height: 58px;
+      }
+      #flex1{
+        position: absolute;
+      width: 498.42px;
+      height: 447.57px;
+      left: 50px;
+      top: 1301px;
+      background: #D9D9D9;
+      }
+      #flex2{
+       position: absolute;
+      width: 498.42px;
+      height: 447.57px;
+      left: 601.29px;
+      top: 1301px;
+      background: #D9D9D9;
+      }
+      #flex3{
+      position: absolute;
+      width: 498.42px;
+      height: 447.57px;
+      left: 1152.58px;
+      top: 1301px;
+      background: #D9D9D9;
+      }
+      #flex4{
+      position: absolute;
+      width: 498.42px;
+      height: 447.57px;
+      left: 50px;
+      top: 1807.43px;
+      }
+      #flex5{
+      position: absolute;
+      width: 498.42px;
+      height: 447.57px;
+      left: 601.29px;
+      top: 1807.43px;
+      }
+      #flex6{
+      position: absolute;
+      width: 498.42px;
+      height: 447.57px;
+      left: 1152.58px;
+      top: 1807.43px;
+      }
+      .flex-container{
+      cursor: pointer;
+      }
+      .ContactUs{ 
+          color:rgba(255, 255, 255, 1);
+          width:127px;
+          height:29px;
+          position:absolute;
+          left:1563px;
+          top:29px;
+          font-family:Inter;
+          text-align:left;
+          font-size:24px;
+          letter-spacing:0;
+           cursor: pointer;
+      }
+      .mobileapp{ 
+          color:rgba(255, 255, 255, 1);
+          width:127px;
+          height:29px;
+          position:absolute;
+          left:1407px;
+          top:29px;
+          font-family:Inter;
+          text-align:left;
+          font-size:24px;
+          letter-spacing:0;
+           cursor: pointer;
+      }
+      .about { 
+          color:rgba(255, 255, 255, 1);
+          width:111px;
+          height:29px;
+          position:absolute;
+          left:1267px;
+          top:29px;
+          font-family:Inter;
+          text-align:left;
+          font-size:24px;
+          letter-spacing:0;
+           cursor: pointer;
+      }
+      .home{ 
+          color:rgba(255, 255, 255, 1);
+          width:67px;
+          height:29px;
+          position:absolute;
+          left:1171px;
+          top:29px;
+          font-family:Inter;
+          text-align:left;
+          font-size:24px;
+          letter-spacing:0;
+           cursor: pointer;
+      }
+      .company{ 
+          color:rgba(255, 255, 255, 1);
+          width:180px;
+          height:29px;
+          position:absolute;
+          left:38px;
+          top:29px;
+          font-family:Inter;
+          text-align:left;
+          font-size:24px;
+          letter-spacing:0;
+           cursor: pointer;
+      }
+      .fixed-header{
+        width: 1728px;
+     height: 87px;
+     left: 0px;
+     top: 0px;
+     overflow: hidden;
+         position: sticky;
+   } .sticky-navbar{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    position: fixed;
+    width: 1728px;
+    height: 87px;
+    z-index: 1;
+    top: 0%;
+}
